@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(255, 255, 255); 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bi-card {
+    width: 450px; 
+    height: 250px; 
+    padding: 15px;
+    background: rgb(0, 245, 145); 
+    border: 1px solid #000; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; 
+    font-size: 10px;
+    color: #333;
+}
+
+
+.bi-header {
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ababab; 
+    padding-bottom: 10px;
+}
+
+.bi-header p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.bi-header h1 {
+    margin: 2px 0 0 0;
+    font-size: 18px;
+    color: #333;
+}
+.bi-header p strong {
+    font-size: 10px;
+}
+
+.bi-body {
+    display: flex;
+    gap: 15px; 
+    flex-grow: 1; 
+}
+
+.photo-section {
+    flex-shrink: 0; 
+    text-align: center;
+}
+
+.photo-section img {
+    width: 120px; 
+    height: 130px; 
+    border: 1px solid #a4a4a4;
+    object-fit: cover;
+}
+
+.details-section {
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.details-section p {
+    margin: 0;
+}
+
+
+.bi-footer {
+    
+    margin-right :15px;
+    margin-left: auto; 
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.signature-box {
+    width: 150px; 
+    text-align: center; 
+    
+    font-size: 8px; 
+}
+
+.signature-box p { 
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(0, 0, 0); 
+}
