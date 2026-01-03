@@ -357,7 +357,7 @@ h1 {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 95%;
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 47, 255, 0.85));
     display: flex;
@@ -623,6 +623,7 @@ h1 {
 html {
     scroll-behavior: smooth;
 }
+
 
 
 
